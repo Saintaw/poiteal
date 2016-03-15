@@ -746,6 +746,7 @@ body {
   webkit-tap-highlight-color: #4B86B5;
 }
 
+/* Ap changes - 20160315*/
 
 .ap-hl {
   color:yellow;
@@ -755,9 +756,31 @@ body {
 }
 
 #whatido-list div {
-  border: solid 1px #f0f !important;
+  background-color: #222222;
+  background-position: center;
+  background-repeat: no-repeat;  
+  padding: 8px;
+  min-height: 300px;
+  transition: all 0.5s ease;
 }
 
 #whatido-list div:hover {
-  border: solid 1px #999 !important;
+ background-size: 180% 180%;
+}
+
+
+#ido-1 {
+
+  background-image: url('../media/photo-1452723312111-3a7d0db0e024.jpg');
+ background-size: 100% 100%;
+}
+#ido-2{
+
+  background-image: url('../media/photo-1452800185063-6db5e12b8e2e.jpg');
+ background-size: 100% 100%;
+}
+#ido-3 {
+
+  background-image: url('../media/photo-1454817481404-7e84c1b73b4a.jpg');
+   background-size: 100% 100%;
 }
