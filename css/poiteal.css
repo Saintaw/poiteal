@@ -810,7 +810,7 @@ body {
 }
 
 #ido-1:hover:after {
-  content:"Content";
+  content:"Content A";
 }
 #ido-2:hover:after {
   content:"Content B";
@@ -819,4 +819,7 @@ body {
   content:"Content C";
 }
 
-
+#whatido-list p
+{
+  color:#fff;  
+}
